@@ -1,0 +1,48 @@
+cmake_minimum_required(VERSION 3.14)
+project(MyBufferPoolProject)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Google Benchmark als Subdirectory hinzufügen
+add_subdirectory(libs/benchmark)
+add_subdirectory(libs/googletest)
+
+# Define Test Files
+set(TEST_FILES
+    tests/test_bufferpool.cpp
+    # Additional test files
+)
+# Quelldateien und Header definieren
+set(SOURCE_FILES
+    src/bp_file/bufferpool.cpp
+    src/bp_file/paged_file.cpp
+    src/test.cpp
+    # Weitere Quelldateien
+
+
+)
+
+set(HEADER_FILES
+    src/bp_file/bufferpool.hpp
+    src/bp_file/paged_file.hpp
+    src/exceptions.hpp
+    src/defs.hpp
+    # Weitere Header-Dateien
+)
+
+# Executable für das Projekt erstellen
+add_executable(MyProjectExecutable ${SOURCE_FILES} ${HEADER_FILES})
+
+# Google Benchmark and pthreads linken
+target_link_libraries(MyProjectExecutable benchmark::benchmark pthread gtest gtest_main)
+
+# Include-Verzeichnisse festlegen
+target_include_directories(MyProjectExecutable PRIVATE include)
+
+# Create Test Executable
+add_executable(MyProjectTests ${TEST_FILES})
+target_link_libraries(MyProjectTests gtest gtest_main MyProjectExecutable)
+
+# Optionally, add a target to run the tests easily
+add_custom_target(run_tests COMMAND MyProjectTests)
