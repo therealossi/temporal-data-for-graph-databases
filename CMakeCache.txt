@@ -370,6 +370,9 @@ GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 //Path to a program.
 LLVM_FILECHECK_EXE:FILEPATH=LLVM_FILECHECK_EXE-NOTFOUND
 
+//No help, variable specified on the command line.
+USE_PFILES:UNINITIALIZED=ON
+
 //Value Computed by CMake
 benchmark_BINARY_DIR:STATIC=/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-build
 

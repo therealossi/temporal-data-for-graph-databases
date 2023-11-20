@@ -2,6 +2,8 @@
 #include "bp_file/bufferpool.hpp"
 #include <iostream>
 
+// #define USE_PFILE 1
+
 // // Konstanten definieren
 // constexpr std::size_t BUFFER_SIZE = 100; // Größe des Bufferpools
 // constexpr uint8_t TEST_FILE_ID = 1;      // File-ID für den Test
