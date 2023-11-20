@@ -7,7 +7,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:211 (message)"
       - "CMakeLists.txt:6 (project)"
     message: |
-      The system is: Linux - 6.5.6-zen2-1-zen - x86_64
+      The system is: Linux - 6.6.1-zen1-1-zen - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/ossi/Github/BA/CMakeFiles/3.27.7/CompilerIdC/a.out
+        /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/3.27.8/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/ossi/Github/BA/CMakeFiles/3.27.7/CompilerIdCXX/a.out
+        /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/3.27.8/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-enkunb"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-enkunb"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-dyf3OJ"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-dyf3OJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-enkunb'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-dyf3OJ'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0aa7a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_0aa7a.dir/build.make CMakeFiles/cmTC_0aa7a.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-enkunb'
-        Building C object CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_33119/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_33119.dir/build.make CMakeFiles/cmTC_33119.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-dyf3OJ'
+        Building C object CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -85,8 +85,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0aa7a.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0aa7a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccjdMA1t.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_33119.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_33119.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cczUO3fc.s
         GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -101,15 +101,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0aa7a.dir/'
-         as -v --64 -o CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o /tmp/ccjdMA1t.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_33119.dir/'
+         as -v --64 -o CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o /tmp/cczUO3fc.s
         GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_0aa7a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aa7a.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o -o cmTC_0aa7a 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_33119
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33119.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o -o cmTC_33119 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -120,10 +120,10 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0aa7a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0aa7a.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmRFNhh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0aa7a /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0aa7a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0aa7a.'
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-enkunb'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33119' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_33119.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf0bVg0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_33119 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33119' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_33119.'
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-dyf3OJ'
         
       exitCode: 0
   -
@@ -157,13 +157,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-enkunb']
+        ignore line: [Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-dyf3OJ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0aa7a/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_0aa7a.dir/build.make CMakeFiles/cmTC_0aa7a.dir/build]
-        ignore line: [make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-enkunb']
-        ignore line: [Building C object CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_33119/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_33119.dir/build.make CMakeFiles/cmTC_33119.dir/build]
+        ignore line: [make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-dyf3OJ']
+        ignore line: [Building C object CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -171,8 +171,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0aa7a.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0aa7a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccjdMA1t.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_33119.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_33119.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cczUO3fc.s]
         ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -187,15 +187,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0aa7a.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o /tmp/ccjdMA1t.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_33119.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o /tmp/cczUO3fc.s]
         ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_0aa7a]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aa7a.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o -o cmTC_0aa7a ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_33119]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33119.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o -o cmTC_33119 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -206,13 +206,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0aa7a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0aa7a.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmRFNhh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0aa7a /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33119' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_33119.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf0bVg0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_33119 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccmRFNhh.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccf0bVg0.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -227,7 +227,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0aa7a] ==> ignore
+          arg [cmTC_33119] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -236,7 +236,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_0aa7a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_33119.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -273,8 +273,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-zsuUzq"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-zsuUzq"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-rqzQ6B"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-rqzQ6B"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -283,13 +283,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-zsuUzq'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-rqzQ6B'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2f7dd/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_2f7dd.dir/build.make CMakeFiles/cmTC_2f7dd.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-zsuUzq'
-        Building CXX object CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed526/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ed526.dir/build.make CMakeFiles/cmTC_ed526.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-rqzQ6B'
+        Building CXX object CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -297,8 +297,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2f7dd.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2f7dd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccIFyv43.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed526.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ed526.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccMBm9EA.s
         GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -316,15 +316,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 5a490a353c29b926850bca65a518c219
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2f7dd.dir/'
-         as -v --64 -o CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIFyv43.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed526.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMBm9EA.s
         GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2f7dd
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f7dd.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2f7dd 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ed526
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed526.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed526 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -335,10 +335,10 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f7dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2f7dd.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOqplDS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2f7dd /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f7dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2f7dd.'
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-zsuUzq'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed526' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ed526.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZCGhB1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ed526 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed526' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ed526.'
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-rqzQ6B'
         
       exitCode: 0
   -
@@ -378,13 +378,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-zsuUzq']
+        ignore line: [Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-rqzQ6B']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2f7dd/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_2f7dd.dir/build.make CMakeFiles/cmTC_2f7dd.dir/build]
-        ignore line: [make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-zsuUzq']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed526/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ed526.dir/build.make CMakeFiles/cmTC_ed526.dir/build]
+        ignore line: [make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-rqzQ6B']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -392,8 +392,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2f7dd.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2f7dd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccIFyv43.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed526.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ed526.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccMBm9EA.s]
         ignore line: [GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -411,15 +411,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 5a490a353c29b926850bca65a518c219]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2f7dd.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIFyv43.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed526.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMBm9EA.s]
         ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2f7dd]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f7dd.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2f7dd ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ed526]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed526.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed526 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -430,13 +430,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f7dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2f7dd.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOqplDS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_2f7dd /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed526' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ed526.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZCGhB1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ed526 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccOqplDS.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccZCGhB1.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -451,7 +451,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2f7dd] ==> ignore
+          arg [cmTC_ed526] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -460,7 +460,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_2f7dd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ed526.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -484,40 +484,36 @@ events:
         implicit fwks: []
       
       
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:125 (check_library_exists)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:125 (check_library_exists)"
     checks:
       - "Looking for shm_open in rt"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ooSHSg"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ooSHSg"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-NzSsm7"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-NzSsm7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_LIB_RT"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ooSHSg'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-NzSsm7'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6d993/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_6d993.dir/build.make CMakeFiles/cmTC_6d993.dir/build
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ooSHSg“ wird betreten
-        Building C object CMakeFiles/cmTC_6d993.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_6d993.dir/CheckFunctionExists.c.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ooSHSg/CheckFunctionExists.c
-        Linking C executable cmTC_6d993
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d993.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_6d993.dir/CheckFunctionExists.c.o -o cmTC_6d993  -lrt 
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ooSHSg“ wird verlassen
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0d714/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0d714.dir/build.make CMakeFiles/cmTC_0d714.dir/build
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-NzSsm7“ wird betreten
+        Building C object CMakeFiles/cmTC_0d714.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_0d714.dir/CheckFunctionExists.c.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-NzSsm7/CheckFunctionExists.c
+        Linking C executable cmTC_0d714
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d714.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_0d714.dir/CheckFunctionExists.c.o -o cmTC_0d714  -lrt 
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-NzSsm7“ wird verlassen
         
       exitCode: 0
   -
@@ -526,33 +522,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:174 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:174 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WALL"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-so0C7a"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-so0C7a"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qcfMlw"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qcfMlw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WALL"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-so0C7a'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qcfMlw'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_018ee/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_018ee.dir/build.make CMakeFiles/cmTC_018ee.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-so0C7a'
-        Building CXX object CMakeFiles/cmTC_018ee.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++11   -Wall -o CMakeFiles/cmTC_018ee.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-so0C7a/src.cxx
-        Linking CXX executable cmTC_018ee
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_018ee.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall CMakeFiles/cmTC_018ee.dir/src.cxx.o -o cmTC_018ee 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-so0C7a'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b1354/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b1354.dir/build.make CMakeFiles/cmTC_b1354.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qcfMlw'
+        Building CXX object CMakeFiles/cmTC_b1354.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++11   -Wall -o CMakeFiles/cmTC_b1354.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qcfMlw/src.cxx
+        Linking CXX executable cmTC_b1354
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1354.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall CMakeFiles/cmTC_b1354.dir/src.cxx.o -o cmTC_b1354 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qcfMlw'
         
       exitCode: 0
   -
@@ -561,33 +557,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:175 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:175 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WEXTRA"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-nQCfm1"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-nQCfm1"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qEU4tb"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qEU4tb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WEXTRA"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-nQCfm1'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qEU4tb'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0fe50/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_0fe50.dir/build.make CMakeFiles/cmTC_0fe50.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-nQCfm1'
-        Building CXX object CMakeFiles/cmTC_0fe50.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++11   -Wextra -o CMakeFiles/cmTC_0fe50.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-nQCfm1/src.cxx
-        Linking CXX executable cmTC_0fe50
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fe50.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra CMakeFiles/cmTC_0fe50.dir/src.cxx.o -o cmTC_0fe50 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-nQCfm1'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_048fd/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_048fd.dir/build.make CMakeFiles/cmTC_048fd.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qEU4tb'
+        Building CXX object CMakeFiles/cmTC_048fd.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++11   -Wextra -o CMakeFiles/cmTC_048fd.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qEU4tb/src.cxx
+        Linking CXX executable cmTC_048fd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_048fd.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra CMakeFiles/cmTC_048fd.dir/src.cxx.o -o cmTC_048fd 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-qEU4tb'
         
       exitCode: 0
   -
@@ -596,33 +592,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:176 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:176 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSHADOW"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4AdoCR"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4AdoCR"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-cvWH33"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-cvWH33"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WSHADOW"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4AdoCR'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-cvWH33'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a9cba/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_a9cba.dir/build.make CMakeFiles/cmTC_a9cba.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4AdoCR'
-        Building CXX object CMakeFiles/cmTC_a9cba.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++11   -Wshadow -o CMakeFiles/cmTC_a9cba.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4AdoCR/src.cxx
-        Linking CXX executable cmTC_a9cba
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9cba.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_a9cba.dir/src.cxx.o -o cmTC_a9cba 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4AdoCR'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7541b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7541b.dir/build.make CMakeFiles/cmTC_7541b.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-cvWH33'
+        Building CXX object CMakeFiles/cmTC_7541b.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++11   -Wshadow -o CMakeFiles/cmTC_7541b.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-cvWH33/src.cxx
+        Linking CXX executable cmTC_7541b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7541b.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_7541b.dir/src.cxx.o -o cmTC_7541b 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-cvWH33'
         
       exitCode: 0
   -
@@ -631,33 +627,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:177 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:177 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Cs4AlH"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Cs4AlH"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-yhsmg5"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-yhsmg5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Cs4AlH'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-yhsmg5'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cba85/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_cba85.dir/build.make CMakeFiles/cmTC_cba85.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Cs4AlH'
-        Building CXX object CMakeFiles/cmTC_cba85.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11   -Wfloat-equal -o CMakeFiles/cmTC_cba85.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Cs4AlH/src.cxx
-        Linking CXX executable cmTC_cba85
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba85.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_cba85.dir/src.cxx.o -o cmTC_cba85 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Cs4AlH'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f28c2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f28c2.dir/build.make CMakeFiles/cmTC_f28c2.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-yhsmg5'
+        Building CXX object CMakeFiles/cmTC_f28c2.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11   -Wfloat-equal -o CMakeFiles/cmTC_f28c2.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-yhsmg5/src.cxx
+        Linking CXX executable cmTC_f28c2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f28c2.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_f28c2.dir/src.cxx.o -o cmTC_f28c2 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-yhsmg5'
         
       exitCode: 0
   -
@@ -666,33 +662,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:178 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:178 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-bD6QTs"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-bD6QTs"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-en296g"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-en296g"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-bD6QTs'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-en296g'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_20169/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_20169.dir/build.make CMakeFiles/cmTC_20169.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-bD6QTs'
-        Building CXX object CMakeFiles/cmTC_20169.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11   -Wold-style-cast -o CMakeFiles/cmTC_20169.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-bD6QTs/src.cxx
-        Linking CXX executable cmTC_20169
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20169.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_20169.dir/src.cxx.o -o cmTC_20169 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-bD6QTs'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2b186/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2b186.dir/build.make CMakeFiles/cmTC_2b186.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-en296g'
+        Building CXX object CMakeFiles/cmTC_2b186.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11   -Wold-style-cast -o CMakeFiles/cmTC_2b186.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-en296g/src.cxx
+        Linking CXX executable cmTC_2b186
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b186.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_2b186.dir/src.cxx.o -o cmTC_2b186 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-en296g'
         
       exitCode: 0
   -
@@ -701,33 +697,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:180 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:180 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WERROR"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-DfOA8K"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-DfOA8K"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-4aF8st"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-4aF8st"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WERROR"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-DfOA8K'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-4aF8st'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fbc79/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_fbc79.dir/build.make CMakeFiles/cmTC_fbc79.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-DfOA8K'
-        Building CXX object CMakeFiles/cmTC_fbc79.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -std=c++11   -Werror -o CMakeFiles/cmTC_fbc79.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-DfOA8K/src.cxx
-        Linking CXX executable cmTC_fbc79
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbc79.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror CMakeFiles/cmTC_fbc79.dir/src.cxx.o -o cmTC_fbc79 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-DfOA8K'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b11f9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b11f9.dir/build.make CMakeFiles/cmTC_b11f9.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-4aF8st'
+        Building CXX object CMakeFiles/cmTC_b11f9.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -std=c++11   -Werror -o CMakeFiles/cmTC_b11f9.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-4aF8st/src.cxx
+        Linking CXX executable cmTC_b11f9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b11f9.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror CMakeFiles/cmTC_b11f9.dir/src.cxx.o -o cmTC_b11f9 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-4aF8st'
         
       exitCode: 0
   -
@@ -736,33 +732,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:184 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:184 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-D7aFwn"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-D7aFwn"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3aMlin"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3aMlin"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-D7aFwn'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3aMlin'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_87940/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_87940.dir/build.make CMakeFiles/cmTC_87940.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-D7aFwn'
-        Building CXX object CMakeFiles/cmTC_87940.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override -std=c++11   -Wsuggest-override -o CMakeFiles/cmTC_87940.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-D7aFwn/src.cxx
-        Linking CXX executable cmTC_87940
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87940.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override CMakeFiles/cmTC_87940.dir/src.cxx.o -o cmTC_87940 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-D7aFwn'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6afca/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6afca.dir/build.make CMakeFiles/cmTC_6afca.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3aMlin'
+        Building CXX object CMakeFiles/cmTC_6afca.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override -std=c++11   -Wsuggest-override -o CMakeFiles/cmTC_6afca.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3aMlin/src.cxx
+        Linking CXX executable cmTC_6afca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6afca.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override CMakeFiles/cmTC_6afca.dir/src.cxx.o -o cmTC_6afca 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3aMlin'
         
       exitCode: 0
   -
@@ -771,33 +767,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:186 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:186 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Xpwosk"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Xpwosk"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1IPJUa"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1IPJUa"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_PEDANTIC"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Xpwosk'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1IPJUa'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5d391/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_5d391.dir/build.make CMakeFiles/cmTC_5d391.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Xpwosk'
-        Building CXX object CMakeFiles/cmTC_5d391.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic -std=c++11   -pedantic -o CMakeFiles/cmTC_5d391.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Xpwosk/src.cxx
-        Linking CXX executable cmTC_5d391
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d391.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic CMakeFiles/cmTC_5d391.dir/src.cxx.o -o cmTC_5d391 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-Xpwosk'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_418dc/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_418dc.dir/build.make CMakeFiles/cmTC_418dc.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1IPJUa'
+        Building CXX object CMakeFiles/cmTC_418dc.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic -std=c++11   -pedantic -o CMakeFiles/cmTC_418dc.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1IPJUa/src.cxx
+        Linking CXX executable cmTC_418dc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_418dc.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic CMakeFiles/cmTC_418dc.dir/src.cxx.o -o cmTC_418dc 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1IPJUa'
         
       exitCode: 0
   -
@@ -806,33 +802,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:187 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:187 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-0H3zgU"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-0H3zgU"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-0LhMta"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-0LhMta"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-0H3zgU'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-0LhMta'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_13cd3/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_13cd3.dir/build.make CMakeFiles/cmTC_13cd3.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-0H3zgU'
-        Building CXX object CMakeFiles/cmTC_13cd3.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++11   -pedantic-errors -o CMakeFiles/cmTC_13cd3.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-0H3zgU/src.cxx
-        Linking CXX executable cmTC_13cd3
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13cd3.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_13cd3.dir/src.cxx.o -o cmTC_13cd3 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-0H3zgU'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b4ff/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4b4ff.dir/build.make CMakeFiles/cmTC_4b4ff.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-0LhMta'
+        Building CXX object CMakeFiles/cmTC_4b4ff.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++11   -pedantic-errors -o CMakeFiles/cmTC_4b4ff.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-0LhMta/src.cxx
+        Linking CXX executable cmTC_4b4ff
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b4ff.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_4b4ff.dir/src.cxx.o -o cmTC_4b4ff 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-0LhMta'
         
       exitCode: 0
   -
@@ -841,34 +837,34 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:188 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:188 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cDHlSS"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cDHlSS"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-MkWfxC"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-MkWfxC"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cDHlSS'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-MkWfxC'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7f3ed/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_7f3ed.dir/build.make CMakeFiles/cmTC_7f3ed.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cDHlSS'
-        Building CXX object CMakeFiles/cmTC_7f3ed.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11   -Wshorten-64-to-32 -o CMakeFiles/cmTC_7f3ed.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cDHlSS/src.cxx
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_951ef/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_951ef.dir/build.make CMakeFiles/cmTC_951ef.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-MkWfxC'
+        Building CXX object CMakeFiles/cmTC_951ef.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11   -Wshorten-64-to-32 -o CMakeFiles/cmTC_951ef.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-MkWfxC/src.cxx
         c++: error: unrecognized command-line option '-Wshorten-64-to-32'
         c++: error: unrecognized command-line option '-Wshorten-64-to-32'
-        make[1]: *** [CMakeFiles/cmTC_7f3ed.dir/build.make:78: CMakeFiles/cmTC_7f3ed.dir/src.cxx.o] Error 1
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cDHlSS'
-        make: *** [Makefile:127: cmTC_7f3ed/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_951ef.dir/build.make:78: CMakeFiles/cmTC_951ef.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-MkWfxC'
+        make: *** [Makefile:127: cmTC_951ef/fast] Error 2
         
       exitCode: 2
   -
@@ -877,33 +873,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:189 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:189 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-rg0RTO"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-rg0RTO"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-LtlFrC"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-LtlFrC"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-rg0RTO'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-LtlFrC'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b3098/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_b3098.dir/build.make CMakeFiles/cmTC_b3098.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-rg0RTO'
-        Building CXX object CMakeFiles/cmTC_b3098.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++11   -fstrict-aliasing -o CMakeFiles/cmTC_b3098.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-rg0RTO/src.cxx
-        Linking CXX executable cmTC_b3098
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3098.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_b3098.dir/src.cxx.o -o cmTC_b3098 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-rg0RTO'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd421/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dd421.dir/build.make CMakeFiles/cmTC_dd421.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-LtlFrC'
+        Building CXX object CMakeFiles/cmTC_dd421.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++11   -fstrict-aliasing -o CMakeFiles/cmTC_dd421.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-LtlFrC/src.cxx
+        Linking CXX executable cmTC_dd421
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd421.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_dd421.dir/src.cxx.o -o cmTC_dd421 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-LtlFrC'
         
       exitCode: 0
   -
@@ -912,33 +908,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:192 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:192 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ORjBvh"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ORjBvh"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-sCUe1R"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-sCUe1R"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ORjBvh'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-sCUe1R'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98fa0/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_98fa0.dir/build.make CMakeFiles/cmTC_98fa0.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ORjBvh'
-        Building CXX object CMakeFiles/cmTC_98fa0.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11   -Wno-deprecated-declarations -o CMakeFiles/cmTC_98fa0.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ORjBvh/src.cxx
-        Linking CXX executable cmTC_98fa0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98fa0.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_98fa0.dir/src.cxx.o -o cmTC_98fa0 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-ORjBvh'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f7cc1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f7cc1.dir/build.make CMakeFiles/cmTC_f7cc1.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-sCUe1R'
+        Building CXX object CMakeFiles/cmTC_f7cc1.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11   -Wno-deprecated-declarations -o CMakeFiles/cmTC_f7cc1.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-sCUe1R/src.cxx
+        Linking CXX executable cmTC_f7cc1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7cc1.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_f7cc1.dir/src.cxx.o -o cmTC_f7cc1 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-sCUe1R'
         
       exitCode: 0
   -
@@ -947,33 +943,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:202 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:202 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-qKFgKO"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-qKFgKO"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-iQ4Wjg"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-iQ4Wjg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-qKFgKO'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-iQ4Wjg'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_da907/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_da907.dir/build.make CMakeFiles/cmTC_da907.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-qKFgKO'
-        Building CXX object CMakeFiles/cmTC_da907.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11   -Wno-deprecated -o CMakeFiles/cmTC_da907.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-qKFgKO/src.cxx
-        Linking CXX executable cmTC_da907
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da907.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_da907.dir/src.cxx.o -o cmTC_da907 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-qKFgKO'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_deac5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_deac5.dir/build.make CMakeFiles/cmTC_deac5.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-iQ4Wjg'
+        Building CXX object CMakeFiles/cmTC_deac5.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11   -Wno-deprecated -o CMakeFiles/cmTC_deac5.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-iQ4Wjg/src.cxx
+        Linking CXX executable cmTC_deac5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deac5.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_deac5.dir/src.cxx.o -o cmTC_deac5 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-iQ4Wjg'
         
       exitCode: 0
   -
@@ -982,33 +978,33 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:210 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:210 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4Oi5nV"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4Oi5nV"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3Pl8Qs"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3Pl8Qs"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4Oi5nV'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3Pl8Qs'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8f31/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_b8f31.dir/build.make CMakeFiles/cmTC_b8f31.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4Oi5nV'
-        Building CXX object CMakeFiles/cmTC_b8f31.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11   -Wstrict-aliasing -o CMakeFiles/cmTC_b8f31.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4Oi5nV/src.cxx
-        Linking CXX executable cmTC_b8f31
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8f31.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_b8f31.dir/src.cxx.o -o cmTC_b8f31 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-4Oi5nV'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53352/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_53352.dir/build.make CMakeFiles/cmTC_53352.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3Pl8Qs'
+        Building CXX object CMakeFiles/cmTC_53352.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11   -Wstrict-aliasing -o CMakeFiles/cmTC_53352.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3Pl8Qs/src.cxx
+        Linking CXX executable cmTC_53352
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53352.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_53352.dir/src.cxx.o -o cmTC_53352 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-3Pl8Qs'
         
       exitCode: 0
   -
@@ -1017,34 +1013,34 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:215 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:215 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WD654"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-dTPTKK"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-dTPTKK"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-lw9yjf"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-lw9yjf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WD654"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-dTPTKK'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-lw9yjf'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1e97d/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_1e97d.dir/build.make CMakeFiles/cmTC_1e97d.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-dTPTKK'
-        Building CXX object CMakeFiles/cmTC_1e97d.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11   -wd654 -o CMakeFiles/cmTC_1e97d.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-dTPTKK/src.cxx
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_13b7d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_13b7d.dir/build.make CMakeFiles/cmTC_13b7d.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-lw9yjf'
+        Building CXX object CMakeFiles/cmTC_13b7d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11   -wd654 -o CMakeFiles/cmTC_13b7d.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-lw9yjf/src.cxx
         c++: error: unrecognized command-line option '-wd654'
         c++: error: unrecognized command-line option '-wd654'
-        make[1]: *** [CMakeFiles/cmTC_1e97d.dir/build.make:78: CMakeFiles/cmTC_1e97d.dir/src.cxx.o] Error 1
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-dTPTKK'
-        make: *** [Makefile:127: cmTC_1e97d/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_13b7d.dir/build.make:78: CMakeFiles/cmTC_13b7d.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-lw9yjf'
+        make: *** [Makefile:127: cmTC_13b7d/fast] Error 2
         
       exitCode: 2
   -
@@ -1053,34 +1049,34 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:216 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:216 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-QPwkRk"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-QPwkRk"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-8nE3Aq"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-8nE3Aq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-QPwkRk'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-8nE3Aq'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d6a5/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_4d6a5.dir/build.make CMakeFiles/cmTC_4d6a5.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-QPwkRk'
-        Building CXX object CMakeFiles/cmTC_4d6a5.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11   -Wthread-safety -o CMakeFiles/cmTC_4d6a5.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-QPwkRk/src.cxx
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_af3ce/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_af3ce.dir/build.make CMakeFiles/cmTC_af3ce.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-8nE3Aq'
+        Building CXX object CMakeFiles/cmTC_af3ce.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11   -Wthread-safety -o CMakeFiles/cmTC_af3ce.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-8nE3Aq/src.cxx
         c++: error: unrecognized command-line option '-Wthread-safety'
         c++: error: unrecognized command-line option '-Wthread-safety'
-        make[1]: *** [CMakeFiles/cmTC_4d6a5.dir/build.make:78: CMakeFiles/cmTC_4d6a5.dir/src.cxx.o] Error 1
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-QPwkRk'
-        make: *** [Makefile:127: cmTC_4d6a5/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_af3ce.dir/build.make:78: CMakeFiles/cmTC_af3ce.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-8nE3Aq'
+        make: *** [Makefile:127: cmTC_af3ce/fast] Error 2
         
       exitCode: 2
   -
@@ -1089,63 +1085,63 @@ events:
       - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
       - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:267 (add_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:267 (add_cxx_compiler_flag)"
     checks:
       - "Performing Test HAVE_CXX_FLAG_COVERAGE"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-13PeNC"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-13PeNC"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-IDiDLi"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-IDiDLi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_COVERAGE"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-13PeNC'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-IDiDLi'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_15e8d/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_15e8d.dir/build.make CMakeFiles/cmTC_15e8d.dir/build
-        make[1]: Entering directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-13PeNC'
-        Building CXX object CMakeFiles/cmTC_15e8d.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++11   --coverage -o CMakeFiles/cmTC_15e8d.dir/src.cxx.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-13PeNC/src.cxx
-        Linking CXX executable cmTC_15e8d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e8d.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_15e8d.dir/src.cxx.o -o cmTC_15e8d 
-        make[1]: Leaving directory '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-13PeNC'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f90e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8f90e.dir/build.make CMakeFiles/cmTC_8f90e.dir/build
+        make[1]: Entering directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-IDiDLi'
+        Building CXX object CMakeFiles/cmTC_8f90e.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++11   --coverage -o CMakeFiles/cmTC_8f90e.dir/src.cxx.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-IDiDLi/src.cxx
+        Linking CXX executable cmTC_8f90e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f90e.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_8f90e.dir/src.cxx.o -o cmTC_8f90e 
+        make[1]: Leaving directory '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-IDiDLi'
         
       exitCode: 0
   -
     kind: "try_run-v1"
     backtrace:
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:297 (cxx_feature_check)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:297 (cxx_feature_check)"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "COMPILE_HAVE_STD_REGEX"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_35638/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_35638.dir/build.make CMakeFiles/cmTC_35638.dir/build
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird betreten
-        Building CXX object CMakeFiles/cmTC_35638.dir/std_regex.cpp.o
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_35638.dir/std_regex.cpp.o -c /home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/std_regex.cpp
-        Linking CXX executable cmTC_35638
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35638.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_35638.dir/std_regex.cpp.o -o cmTC_35638 
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird verlassen
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8bdba/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8bdba.dir/build.make CMakeFiles/cmTC_8bdba.dir/build
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird betreten
+        Building CXX object CMakeFiles/cmTC_8bdba.dir/std_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_8bdba.dir/std_regex.cpp.o -c /home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_8bdba
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bdba.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_8bdba.dir/std_regex.cpp.o -o cmTC_8bdba 
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird verlassen
         
       exitCode: 0
     runResult:
@@ -1156,34 +1152,34 @@ events:
   -
     kind: "try_run-v1"
     backtrace:
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:298 (cxx_feature_check)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:298 (cxx_feature_check)"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bde36/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_bde36.dir/build.make CMakeFiles/cmTC_bde36.dir/build
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird betreten
-        Building CXX object CMakeFiles/cmTC_bde36.dir/gnu_posix_regex.cpp.o
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_bde36.dir/gnu_posix_regex.cpp.o -c /home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp
-        /home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp:1:10: schwerwiegender Fehler: gnuregex.h: Datei oder Verzeichnis nicht gefunden
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16fc3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_16fc3.dir/build.make CMakeFiles/cmTC_16fc3.dir/build
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird betreten
+        Building CXX object CMakeFiles/cmTC_16fc3.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_16fc3.dir/gnu_posix_regex.cpp.o -c /home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp
+        /home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/gnu_posix_regex.cpp:1:10: schwerwiegender Fehler: gnuregex.h: Datei oder Verzeichnis nicht gefunden
             1 | #include <gnuregex.h>
               |          ^~~~~~~~~~~~
         Kompilierung beendet.
-        make[1]: *** [CMakeFiles/cmTC_bde36.dir/build.make:78: CMakeFiles/cmTC_bde36.dir/gnu_posix_regex.cpp.o] Fehler 1
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird verlassen
-        make: *** [Makefile:127: cmTC_bde36/fast] Fehler 2
+        make[1]: *** [CMakeFiles/cmTC_16fc3.dir/build.make:78: CMakeFiles/cmTC_16fc3.dir/gnu_posix_regex.cpp.o] Fehler 1
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird verlassen
+        make: *** [Makefile:127: cmTC_16fc3/fast] Fehler 2
         
       exitCode: 2
     runResult:
@@ -1192,31 +1188,31 @@ events:
   -
     kind: "try_run-v1"
     backtrace:
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:299 (cxx_feature_check)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:299 (cxx_feature_check)"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "COMPILE_HAVE_POSIX_REGEX"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_09b13/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_09b13.dir/build.make CMakeFiles/cmTC_09b13.dir/build
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird betreten
-        Building CXX object CMakeFiles/cmTC_09b13.dir/posix_regex.cpp.o
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_09b13.dir/posix_regex.cpp.o -c /home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/posix_regex.cpp
-        Linking CXX executable cmTC_09b13
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b13.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_09b13.dir/posix_regex.cpp.o -o cmTC_09b13 
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird verlassen
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8c896/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8c896.dir/build.make CMakeFiles/cmTC_8c896.dir/build
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird betreten
+        Building CXX object CMakeFiles/cmTC_8c896.dir/posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_8c896.dir/posix_regex.cpp.o -c /home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_8c896
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c896.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_8c896.dir/posix_regex.cpp.o -o cmTC_8c896 
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird verlassen
         
       exitCode: 0
     runResult:
@@ -1227,31 +1223,31 @@ events:
   -
     kind: "try_run-v1"
     backtrace:
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:308 (cxx_feature_check)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:308 (cxx_feature_check)"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "COMPILE_HAVE_STEADY_CLOCK"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c0312/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_c0312.dir/build.make CMakeFiles/cmTC_c0312.dir/build
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird betreten
-        Building CXX object CMakeFiles/cmTC_c0312.dir/steady_clock.cpp.o
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_c0312.dir/steady_clock.cpp.o -c /home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/steady_clock.cpp
-        Linking CXX executable cmTC_c0312
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0312.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_c0312.dir/steady_clock.cpp.o -o cmTC_c0312 
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird verlassen
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0a739/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0a739.dir/build.make CMakeFiles/cmTC_0a739.dir/build
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird betreten
+        Building CXX object CMakeFiles/cmTC_0a739.dir/steady_clock.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_0a739.dir/steady_clock.cpp.o -c /home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_0a739
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a739.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_0a739.dir/steady_clock.cpp.o -o cmTC_0a739 
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird verlassen
         
       exitCode: 0
     runResult:
@@ -1266,62 +1262,62 @@ events:
       - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
       - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:311 (find_package)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:311 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cLbU7K"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cLbU7K"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1cWv9x"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1cWv9x"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cLbU7K'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1cWv9x'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8d553/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_8d553.dir/build.make CMakeFiles/cmTC_8d553.dir/build
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cLbU7K“ wird betreten
-        Building C object CMakeFiles/cmTC_8d553.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8d553.dir/src.c.o -c /home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cLbU7K/src.c
-        Linking C executable cmTC_8d553
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d553.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_8d553.dir/src.c.o -o cmTC_8d553 
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeScratch/TryCompile-cLbU7K“ wird verlassen
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aa8e1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_aa8e1.dir/build.make CMakeFiles/cmTC_aa8e1.dir/build
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1cWv9x“ wird betreten
+        Building C object CMakeFiles/cmTC_aa8e1.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_aa8e1.dir/src.c.o -c /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1cWv9x/src.c
+        Linking C executable cmTC_aa8e1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa8e1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_aa8e1.dir/src.c.o -o cmTC_aa8e1 
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeScratch/TryCompile-1cWv9x“ wird verlassen
         
       exitCode: 0
   -
     kind: "try_run-v1"
     backtrace:
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
-      - "/home/ossi/Github/BA/_deps/googlebenchmark-src/CMakeLists.txt:312 (cxx_feature_check)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/CMakeLists.txt:312 (cxx_feature_check)"
     directories:
-      source: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
-      binary: "/home/ossi/Github/BA/CMakeFiles/CMakeTmp"
+      source: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
+      binary: "/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/BA/_deps/googlebenchmark-src/cmake"
+      CMAKE_MODULE_PATH: "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/Modules;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake"
     buildResult:
       variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
       cached: true
       stdout: |
-        Change Dir: '/home/ossi/Github/BA/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_300bc/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_300bc.dir/build.make CMakeFiles/cmTC_300bc.dir/build
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird betreten
-        Building CXX object CMakeFiles/cmTC_300bc.dir/pthread_affinity.cpp.o
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_300bc.dir/pthread_affinity.cpp.o -c /home/ossi/Github/BA/_deps/googlebenchmark-src/cmake/pthread_affinity.cpp
-        Linking CXX executable cmTC_300bc
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_300bc.dir/link.txt --verbose=1
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_300bc.dir/pthread_affinity.cpp.o -o cmTC_300bc 
-        make[1]: Verzeichnis „/home/ossi/Github/BA/CMakeFiles/CMakeTmp“ wird verlassen
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_18c37/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_18c37.dir/build.make CMakeFiles/cmTC_18c37.dir/build
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird betreten
+        Building CXX object CMakeFiles/cmTC_18c37.dir/pthread_affinity.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_18c37.dir/pthread_affinity.cpp.o -c /home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/cmake/pthread_affinity.cpp
+        Linking CXX executable cmTC_18c37
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18c37.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_18c37.dir/pthread_affinity.cpp.o -o cmTC_18c37 
+        make[1]: Verzeichnis „/home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles/CMakeTmp“ wird verlassen
         
       exitCode: 0
     runResult:

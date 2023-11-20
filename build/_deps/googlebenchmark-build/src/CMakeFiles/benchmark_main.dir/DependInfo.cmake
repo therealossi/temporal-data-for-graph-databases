@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ossi/Github/BA/build/_deps/googlebenchmark-src/src/benchmark_main.cc" "_deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o" "gcc" "_deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o.d"
+  "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src/src/benchmark_main.cc" "_deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o" "gcc" "_deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

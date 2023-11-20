@@ -1,4 +1,4 @@
-# Install script for directory: /home/ossi/Github/BA/src/StringBenchmarks
+# Install script for directory: /home/ossi/Github/temporal-data-for-graph-databases/src/StringBenchmarks
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ossi/Github/BA/_deps/googlebenchmark-build/cmake_install.cmake")
+  include("/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-build/cmake_install.cmake")
 
 endif()
 

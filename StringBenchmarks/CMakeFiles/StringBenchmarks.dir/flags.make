@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBENCHMARK_STATIC_DEFINE
 
-CXX_INCLUDES = -I/home/ossi/Github/BA/_deps/googlebenchmark-src/include
+CXX_INCLUDES = -I/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src/include
 
 CXX_FLAGS = 
 

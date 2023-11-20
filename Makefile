@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ossi/Github/BA/src
+CMAKE_SOURCE_DIR = /home/ossi/Github/temporal-data-for-graph-databases/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ossi/Github/BA
+CMAKE_BINARY_DIR = /home/ossi/Github/temporal-data-for-graph-databases
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/CMakeFiles /home/ossi/Github/BA//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles /home/ossi/Github/temporal-data-for-graph-databases//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

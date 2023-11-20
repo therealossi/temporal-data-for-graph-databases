@@ -1,0 +1,147 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "StringBenchmarks",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-StringBenchmarks-Debug-1f8909f9b9d10440ce83.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "StringBenchmarks",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/googlebenchmark-build",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googlebenchmark-build-Debug-e9d1c36f23ac5bcd64b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src"
+				},
+				{
+					"build" : "_deps/googlebenchmark-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googlebenchmark-build.src-Debug-39546022733b4626ced5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src/src",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Benchmarks",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "benchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "StringBenchmarks::@2b6132e419b6699f3ca9",
+					"jsonFile" : "target-StringBenchmarks-Debug-e03dd3891992529b3dff.json",
+					"name" : "StringBenchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "benchmark::@a5e768fe43450e220d4b",
+					"jsonFile" : "target-benchmark-Debug-1d4a12d25e214c19f933.json",
+					"name" : "benchmark",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "benchmark_main::@a5e768fe43450e220d4b",
+					"jsonFile" : "target-benchmark_main-Debug-2d0ed70800b5d75a2b10.json",
+					"name" : "benchmark_main",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ossi/Github/temporal-data-for-graph-databases/build",
+		"source" : "/home/ossi/Github/temporal-data-for-graph-databases/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

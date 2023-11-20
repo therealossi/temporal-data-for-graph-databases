@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/bin/cmake;-P;/home/ossi/Github/BA/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitclone.cmake
-source_dir=/home/ossi/Github/BA/_deps/googlebenchmark-src
-work_dir=/home/ossi/Github/BA/_deps
+command=/usr/bin/cmake;-P;/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitclone.cmake
+source_dir=/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src
+work_dir=/home/ossi/Github/temporal-data-for-graph-databases/_deps
 repository=https://github.com/google/benchmark.git
 remote=origin
 init_submodules=TRUE

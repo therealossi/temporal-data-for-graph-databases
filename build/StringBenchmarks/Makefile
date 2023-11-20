@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ossi/Github/BA/src
+CMAKE_SOURCE_DIR = /home/ossi/Github/temporal-data-for-graph-databases/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ossi/Github/BA/build
+CMAKE_BINARY_DIR = /home/ossi/Github/temporal-data-for-graph-databases/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ossi/Github/BA/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/build/CMakeFiles /home/ossi/Github/BA/build/StringBenchmarks//CMakeFiles/progress.marks
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/build/CMakeFiles 0
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles /home/ossi/Github/temporal-data-for-graph-databases/build/StringBenchmarks//CMakeFiles/progress.marks
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/clean
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/preinstall
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/preinstall
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ossi/Github/BA/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/rule:
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/rule
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/rule
 .PHONY : StringBenchmarks/CMakeFiles/StringBenchmarks.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ StringBenchmarks: StringBenchmarks/CMakeFiles/StringBenchmarks.dir/rule
 
 # fast build rule for target.
 StringBenchmarks/fast:
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build
 .PHONY : StringBenchmarks/fast
 
 test.o: test.cpp.o
@@ -180,7 +180,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -188,7 +188,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.i
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -196,7 +196,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	cd /home/ossi/Github/BA/build && $(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.s
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ossi/Github/BA/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

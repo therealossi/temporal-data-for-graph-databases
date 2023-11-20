@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/googlebenchmark-build",
+		"source" : "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src"
+	}
+}

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ossi/Github/BA/src
+# Install script for directory: /home/ossi/Github/temporal-data-for-graph-databases/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ossi/Github/BA/StringBenchmarks/cmake_install.cmake")
+  include("/home/ossi/Github/temporal-data-for-graph-databases/StringBenchmarks/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ossi/Github/BA/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ossi/Github/temporal-data-for-graph-databases/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ossi/Github/BA/src
+CMAKE_SOURCE_DIR = /home/ossi/Github/temporal-data-for-graph-databases/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ossi/Github/BA
+CMAKE_BINARY_DIR = /home/ossi/Github/temporal-data-for-graph-databases
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ossi/Github/BA && $(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/CMakeFiles /home/ossi/Github/BA/_deps/googlebenchmark-build//CMakeFiles/progress.marks
-	cd /home/ossi/Github/BA && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/CMakeFiles 0
+	cd /home/ossi/Github/temporal-data-for-graph-databases && $(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles /home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-build//CMakeFiles/progress.marks
+	cd /home/ossi/Github/temporal-data-for-graph-databases && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ossi/Github/BA && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/clean
+	cd /home/ossi/Github/temporal-data-for-graph-databases && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ossi/Github/BA && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/preinstall
+	cd /home/ossi/Github/temporal-data-for-graph-databases && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ossi/Github/BA && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/preinstall
+	cd /home/ossi/Github/temporal-data-for-graph-databases && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ossi/Github/BA && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ossi/Github/temporal-data-for-graph-databases && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ossi/Github/BA && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ossi/Github/temporal-data-for-graph-databases && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

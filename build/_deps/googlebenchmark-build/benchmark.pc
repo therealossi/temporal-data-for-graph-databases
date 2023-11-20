@@ -5,7 +5,7 @@ includedir=/usr/local/include
 
 Name: benchmark
 Description: Google microbenchmark framework
-Version: 1.8.3.20
+Version: 1.8.3.22
 
 Libs: -L${libdir} -lbenchmark
 Libs.private: -lpthread

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ossi/Github/BA/src
+CMAKE_SOURCE_DIR = /home/ossi/Github/temporal-data-for-graph-databases/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ossi/Github/BA/build
+CMAKE_BINARY_DIR = /home/ossi/Github/temporal-data-for-graph-databases/build
 
 # Include any dependencies generated for this target.
 include StringBenchmarks/CMakeFiles/StringBenchmarks.dir/depend.make
@@ -70,18 +70,18 @@ include StringBenchmarks/CMakeFiles/StringBenchmarks.dir/progress.make
 include StringBenchmarks/CMakeFiles/StringBenchmarks.dir/flags.make
 
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o: StringBenchmarks/CMakeFiles/StringBenchmarks.dir/flags.make
-StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o: /home/ossi/Github/BA/src/StringBenchmarks/test.cpp
+StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o: /home/ossi/Github/temporal-data-for-graph-databases/src/StringBenchmarks/test.cpp
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o: StringBenchmarks/CMakeFiles/StringBenchmarks.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ossi/Github/BA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o"
-	cd /home/ossi/Github/BA/build/StringBenchmarks && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o -MF CMakeFiles/StringBenchmarks.dir/test.cpp.o.d -o CMakeFiles/StringBenchmarks.dir/test.cpp.o -c /home/ossi/Github/BA/src/StringBenchmarks/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o"
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build/StringBenchmarks && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o -MF CMakeFiles/StringBenchmarks.dir/test.cpp.o.d -o CMakeFiles/StringBenchmarks.dir/test.cpp.o -c /home/ossi/Github/temporal-data-for-graph-databases/src/StringBenchmarks/test.cpp
 
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StringBenchmarks.dir/test.cpp.i"
-	cd /home/ossi/Github/BA/build/StringBenchmarks && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ossi/Github/BA/src/StringBenchmarks/test.cpp > CMakeFiles/StringBenchmarks.dir/test.cpp.i
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build/StringBenchmarks && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ossi/Github/temporal-data-for-graph-databases/src/StringBenchmarks/test.cpp > CMakeFiles/StringBenchmarks.dir/test.cpp.i
 
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StringBenchmarks.dir/test.cpp.s"
-	cd /home/ossi/Github/BA/build/StringBenchmarks && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ossi/Github/BA/src/StringBenchmarks/test.cpp -o CMakeFiles/StringBenchmarks.dir/test.cpp.s
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build/StringBenchmarks && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ossi/Github/temporal-data-for-graph-databases/src/StringBenchmarks/test.cpp -o CMakeFiles/StringBenchmarks.dir/test.cpp.s
 
 # Object files for target StringBenchmarks
 StringBenchmarks_OBJECTS = \
@@ -94,18 +94,18 @@ StringBenchmarks/StringBenchmarks: StringBenchmarks/CMakeFiles/StringBenchmarks.
 StringBenchmarks/StringBenchmarks: StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make
 StringBenchmarks/StringBenchmarks: _deps/googlebenchmark-build/src/libbenchmark.a
 StringBenchmarks/StringBenchmarks: StringBenchmarks/CMakeFiles/StringBenchmarks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ossi/Github/BA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable StringBenchmarks"
-	cd /home/ossi/Github/BA/build/StringBenchmarks && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StringBenchmarks.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable StringBenchmarks"
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build/StringBenchmarks && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StringBenchmarks.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build: StringBenchmarks/StringBenchmarks
 .PHONY : StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build
 
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/clean:
-	cd /home/ossi/Github/BA/build/StringBenchmarks && $(CMAKE_COMMAND) -P CMakeFiles/StringBenchmarks.dir/cmake_clean.cmake
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build/StringBenchmarks && $(CMAKE_COMMAND) -P CMakeFiles/StringBenchmarks.dir/cmake_clean.cmake
 .PHONY : StringBenchmarks/CMakeFiles/StringBenchmarks.dir/clean
 
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/depend:
-	cd /home/ossi/Github/BA/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ossi/Github/BA/src /home/ossi/Github/BA/src/StringBenchmarks /home/ossi/Github/BA/build /home/ossi/Github/BA/build/StringBenchmarks /home/ossi/Github/BA/build/StringBenchmarks/CMakeFiles/StringBenchmarks.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ossi/Github/temporal-data-for-graph-databases/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ossi/Github/temporal-data-for-graph-databases/src /home/ossi/Github/temporal-data-for-graph-databases/src/StringBenchmarks /home/ossi/Github/temporal-data-for-graph-databases/build /home/ossi/Github/temporal-data-for-graph-databases/build/StringBenchmarks /home/ossi/Github/temporal-data-for-graph-databases/build/StringBenchmarks/CMakeFiles/StringBenchmarks.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : StringBenchmarks/CMakeFiles/StringBenchmarks.dir/depend
 

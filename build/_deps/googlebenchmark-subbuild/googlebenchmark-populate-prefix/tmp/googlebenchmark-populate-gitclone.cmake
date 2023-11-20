@@ -3,21 +3,21 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-if(EXISTS "/home/ossi/Github/BA/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt" AND EXISTS "/home/ossi/Github/BA/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitinfo.txt" AND
-  "/home/ossi/Github/BA/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/home/ossi/Github/BA/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitinfo.txt")
+if(EXISTS "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt" AND EXISTS "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitinfo.txt" AND
+  "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitinfo.txt")
   message(STATUS
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'/home/ossi/Github/BA/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt'"
+    "'/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt'"
   )
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/ossi/Github/BA/build/_deps/googlebenchmark-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: '/home/ossi/Github/BA/build/_deps/googlebenchmark-src'")
+  message(FATAL_ERROR "Failed to remove directory: '/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -27,7 +27,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "/usr/bin/git"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/google/benchmark.git" "googlebenchmark-src"
-    WORKING_DIRECTORY "/home/ossi/Github/BA/build/_deps"
+    WORKING_DIRECTORY "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps"
     RESULT_VARIABLE error_code
   )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -42,7 +42,7 @@ endif()
 execute_process(
   COMMAND "/usr/bin/git"
           checkout "origin/main" --
-  WORKING_DIRECTORY "/home/ossi/Github/BA/build/_deps/googlebenchmark-src"
+  WORKING_DIRECTORY "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
@@ -54,20 +54,20 @@ if(init_submodules)
   execute_process(
     COMMAND "/usr/bin/git" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "/home/ossi/Github/BA/build/_deps/googlebenchmark-src"
+    WORKING_DIRECTORY "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src"
     RESULT_VARIABLE error_code
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: '/home/ossi/Github/BA/build/_deps/googlebenchmark-src'")
+  message(FATAL_ERROR "Failed to update submodules in: '/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "/home/ossi/Github/BA/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitinfo.txt" "/home/ossi/Github/BA/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitinfo.txt" "/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/ossi/Github/BA/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/ossi/Github/temporal-data-for-graph-databases/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-gitclone-lastrun.txt'")
 endif()

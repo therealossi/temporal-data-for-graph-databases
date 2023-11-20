@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
 # file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 3.27.7)
+cmake_minimum_required(VERSION 3.27.8)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(googlebenchmark-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/google/benchmark.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "origin/main"
-                    SOURCE_DIR          "/home/ossi/Github/BA/_deps/googlebenchmark-src"
-                    BINARY_DIR          "/home/ossi/Github/BA/_deps/googlebenchmark-build"
+                    SOURCE_DIR          "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-src"
+                    BINARY_DIR          "/home/ossi/Github/temporal-data-for-graph-databases/_deps/googlebenchmark-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

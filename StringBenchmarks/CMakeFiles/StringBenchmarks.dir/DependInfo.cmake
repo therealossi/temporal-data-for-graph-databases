@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ossi/Github/BA/src/StringBenchmarks/test.cpp" "StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o" "gcc" "StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o.d"
+  "/home/ossi/Github/temporal-data-for-graph-databases/src/StringBenchmarks/test.cpp" "StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o" "gcc" "StringBenchmarks/CMakeFiles/StringBenchmarks.dir/test.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

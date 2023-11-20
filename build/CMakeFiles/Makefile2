@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ossi/Github/BA/src
+CMAKE_SOURCE_DIR = /home/ossi/Github/temporal-data-for-graph-databases/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ossi/Github/BA/build
+CMAKE_BINARY_DIR = /home/ossi/Github/temporal-data-for-graph-databases/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -130,14 +130,14 @@ _deps/googlebenchmark-build/src/clean: _deps/googlebenchmark-build/src/CMakeFile
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/all: _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/all
 	$(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/depend
 	$(MAKE) $(MAKESILENT) -f StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build.make StringBenchmarks/CMakeFiles/StringBenchmarks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ossi/Github/BA/build/CMakeFiles --progress-num=1,2 "Built target StringBenchmarks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles --progress-num=1,2 "Built target StringBenchmarks"
 .PHONY : StringBenchmarks/CMakeFiles/StringBenchmarks.dir/all
 
 # Build rule for subdir invocation for target.
 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StringBenchmarks/CMakeFiles/StringBenchmarks.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles 0
 .PHONY : StringBenchmarks/CMakeFiles/StringBenchmarks.dir/rule
 
 # Convenience name for target.
@@ -156,14 +156,14 @@ StringBenchmarks/CMakeFiles/StringBenchmarks.dir/clean:
 _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/build.make _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/build.make _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ossi/Github/BA/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target benchmark"
 .PHONY : _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles 0
 .PHONY : _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/rule
 
 # Convenience name for target.
@@ -182,14 +182,14 @@ _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/clean:
 _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/all: _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/build.make _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/build.make _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ossi/Github/BA/build/CMakeFiles --progress-num=23,24 "Built target benchmark_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles --progress-num=23,24 "Built target benchmark_main"
 .PHONY : _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/BA/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ossi/Github/temporal-data-for-graph-databases/build/CMakeFiles 0
 .PHONY : _deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/rule
 
 # Convenience name for target.
